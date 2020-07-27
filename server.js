@@ -7,6 +7,7 @@ const exphbs = require("express-handlebars");
 const passport = require("./config/passport");
 const session = require("express-session");
 const path = require("path");
+const compression = require("compression");
 
 /**
  * DEFINE VARIABLES
